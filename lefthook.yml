@@ -1,0 +1,9 @@
+pre-commit:
+    parallel: true
+    commands:
+        code:
+            glob: "*.{js,ts,jsx,tsx}"
+            run: pnpm prettier --write {staged_files} && pnpm eslint {staged_files} && git add {staged_files}
+        css:
+            glob: "*.{css}"
+            run: pnpm prettier --write {staged_files} && git add {staged_files}
