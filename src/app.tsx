@@ -1,3 +1,5 @@
+import "src/shared/styles/reset.css";
+
 const technologies = [
     {
         href: "https://pnpm.io/",
