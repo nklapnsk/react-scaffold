@@ -35,6 +35,10 @@ const technologies = [
         href: "https://github.com/evilmartians/lefthook",
         name: "Lefthook",
     },
+    {
+        href: "https://millionjs.org/",
+        name: "Million",
+    },
 ];
 
 export function App() {

@@ -28,3 +28,4 @@ pnpm install
 -   [Stylelint](https://stylelint.io/)
 -   [Vitest](https://vitest.dev/) Blazing Fast Unit Test Framework
 -   [Lefthook](https://vitest.dev/) Fast and powerful Git hooks manager
+-   [Million](https://millionjs.org/) Up to 70% faster React components
